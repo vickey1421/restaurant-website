@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: orangered;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+
+}
+
+.nav li{
+    list-style: none;
+   
+}
+
+.nav-link{
+    text-decoration: none;
+    color:white;
+}
+
+.search-input{
+    padding: .5rem;
+    border-radius: .3rem;
+    box-shadow: none;
+    border: none;
+
+    width: 47%;
+
+}
+
+.search-area {
+    background-image: url('Dinner.jpg');
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+}
+
+
+.recommendations{
+  
+
+
+}
+
+.rec-container{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.rec-blocks{
+
+    border:3px solid rgb(216, 215, 215);
+    height: 15rem;
+    width: 12rem;
+    border-radius: .5rem;
+
+}
+
+.rec-img{
+    width: 100%;
+    height:70%;
+}

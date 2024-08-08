@@ -1,0 +1,71 @@
+/* General Styles for the Container and Image */
+.overlay-container {
+  position: relative;
+}
+
+.faded-image {
+  opacity: 0.8;
+  filter: brightness(50%);
+  width: 100%;
+  height: auto;
+}
+
+.overlay-content {
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media Queries */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .faded-image {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+  .overlay-content h1 {
+    font-size: 1.5rem; /* Smaller font size for smaller screens */
+  }
+  .overlay-content p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+  .btn {
+    font-size: 0.8rem; /* Smaller buttons */
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .faded-image {
+    height: 400px; /* Adjust height for medium screens */
+  }
+  .overlay-content h1 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+  .overlay-content p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .faded-image {
+    height: 500px; /* Adjust height for larger screens */
+  }
+  .overlay-content h1 {
+    font-size: 2.5rem; /* Larger font size for desktops */
+  }
+  .overlay-content p {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
